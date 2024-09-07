@@ -186,13 +186,6 @@ nav ul li a:hover::after{
     display:block;
 }
 
-.contact-left{
-    flex-basis: 35%;;
-}
-.contact-right{
-    flex-basis: 35%;;
-}
-
 .social-icons a{
     text-decoration: none;
     color: #898989;
@@ -209,79 +202,8 @@ nav ul li a:hover::after{
     transform: translateY(-5px);
 }
 
-.contact-right form{
-    width: 100%;
-}
-
-form input,form textarea{
-    width: 100%;
-    border: none;
-    outline: none;
-    background: #1a1a1a;
-    padding: 15px;
-    margin: 15px 0;
-    color: #ffffff;
-    font-size: 15px;
-    border-radius: 10px;
-}
-
-.contact-right button{
-    display: block;
-    margin: 50px auto;
-    width: fit-content;
-    padding: 15px 50px ;
-    border: 1px solid #565678;
-    border-radius: 6px;
-    color: #080808;
-    font-size: 15px;
-    background: #ababab;
-    cursor: pointer;
-
-}
-
-.contact-right button:hover{
-    background: #ffffff;
-    color: #1a1a1a;
-
-}
 
 
 
 
 
-
-
-
-
-/* @media(max-width:700px){
-    nav ul li {
-        display: block;
-
-
-    }
-    nav ul {
-        position: absolute;
-        height: 100vh;
-        background: linear-gradient(rgba(86,86,120,0.7),rgba(90,90,120,0.5));
-        width: 250px;
-        top: 0;
-        right: 0;
-        z-index: 2;
-        transition: 1s;
-        /* opacity: 0; */
-
-
-
-
-
-    /* } */
-
-    /* nav ul li a:hover{
-        color: #ffffff;;
-    }
-    nav ul li a:hover::after{
-        width: 0;
-      
-    }
-
-} */ 
